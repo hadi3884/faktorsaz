@@ -33,7 +33,7 @@ jobs:
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
       - name: Extract project
-        run: unzip -o 'پروژه_اصلاح_فاکتور.zip' -d extracted
+        run: unzip -o 'Faktor.zip' -d extracted
 
       - name: Build APK
         working-directory: extracted/InvoiceFixedProject
